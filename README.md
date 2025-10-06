@@ -13,7 +13,7 @@ pip install -r requirements.txt
 python scripts/build_index.py --csv data/papers.csv --db ./chroma_nasa
 ```
 
-## Run the API
+## Run the Server
 ```
 python scripts/serve.py
 # -> server at http://127.0.0.1:7895
